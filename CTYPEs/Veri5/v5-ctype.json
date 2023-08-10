@@ -1,0 +1,33 @@
+{
+  "$id": "kilt:ctype:123abd",
+  "$schema": "http://kilt-protocol.org/draft-01/ctype#",
+  "title": "Person-with-Disability",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "disability_card_number": {
+      "type": "integer"
+    },
+    "version": {
+      "const": "1"
+    },
+    "parent": {
+      "const": "kilt:ctype:456abc"
+    },
+    "owner": {
+      "const": "kilt:ctype:456abc"
+    },
+    "issuer": {
+      "const": "kilt:ctype:456abc"
+    },
+    "revoker": {
+      "const": "kilt:ctype:456abc"
+    }
+  }
+}

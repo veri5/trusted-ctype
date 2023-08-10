@@ -1,0 +1,27 @@
+{
+  "$id": "kilt:ctype:456abc",
+  "$schema": "http://kilt-protocol.org/draft-01/ctype#",
+  "title": "Commission-for-the-Rights-of-Persons-with-Disabilities",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "organisation_name": {
+      "type": "string"
+    },
+    "company_uuid": {
+      "type": "string"
+    },
+    "version": {
+      "const": "1"
+    },
+    "owner": {
+      "const": "did:kilt:4oqiNfqVuUgMfLtE8GJtjNBiY3E9qUPp9T7jG8pBCFQH1LYr"
+    },
+    "issuer": {
+      "const": "did:kilt:4oqiNfqVuUgMfLtE8GJtjNBiY3E9qUPp9T7jG8pBCFQH1LYr"
+    },
+    "revoker": {
+      "const": "did:kilt:4oqiNfqVuUgMfLtE8GJtjNBiY3E9qUPp9T7jG8pBCFQH1LYr"
+    }
+  }
+}

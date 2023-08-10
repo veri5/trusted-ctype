@@ -1,0 +1,18 @@
+{
+  "$id": "kilt:ctype:0x1146860a241d54a997401943a64ba081755bf39425aa3587fe741ab880089015",
+  "$schema": "http://kilt-protocol.org/draft-01/ctype#",
+  "title": "Person-with-Disability",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "disability_card_number": {
+      "type": "integer"
+    }
+  }
+}

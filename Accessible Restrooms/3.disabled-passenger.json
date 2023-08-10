@@ -1,0 +1,25 @@
+{
+  "$id": "kilt:ctype:124abd",
+  "$schema": "http://kilt-protocol.org/draft-01/ctype#",
+  "title": "MSC-Cruises-Passenger-with-Disability",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "1"
+    },
+    "parent": {
+      "const": "kilt:ctype:456abc"
+    },
+    "owner": {
+      "const": "kilt:ctype:456abc"
+    },
+    "prerequisite": {
+      "type": "array",
+      "prefixItems": [
+        { "const": "kilt:ctype:123abd" },
+        { "const": "kilt:ctype:124abc" }
+      ]
+    }
+  }
+}
